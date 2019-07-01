@@ -28,7 +28,7 @@ main PROC
 
 ;a label to jump to
 	firstJump:
-		mov		edx, firstString
+		mov		edx, OFFSET firstString
 		call	WriteString
 		call	CrLf
 
