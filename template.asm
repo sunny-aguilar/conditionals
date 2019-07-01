@@ -28,11 +28,13 @@ main PROC
 
 ;a label to jump to
 	firstJump:
-		
+	mov		edx, firstJump
+	call	writeString
+	call	CrLf
 
 ;another label to jump to
 	secondJump:
-
+	call	Write
 
 
 	exit							; exit to operating system
