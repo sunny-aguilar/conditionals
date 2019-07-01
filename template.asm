@@ -34,7 +34,7 @@ main PROC
 
 ;another label to jump to
 	secondJump:
-		mov		edx, secondString
+		mov		edx, OFFSET secondString
 		call	WriteString
 		call	CrLf
 
