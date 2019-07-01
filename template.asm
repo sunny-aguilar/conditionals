@@ -31,7 +31,8 @@ main PROC
 		
 
 ;another label to jump to
-	secondJump:
+secondJump:
+
 
 
 	exit							; exit to operating system
