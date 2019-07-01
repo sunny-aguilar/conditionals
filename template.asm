@@ -29,11 +29,11 @@ main PROC
 ;a label to jump to
 	firstJump:
 		mov		edx, firstString
-		call	SriteString
+		call	WriteString
 		call	CrLf
 
 ;another label to jump to
-secondJump:
+	secondJump:
 		mov		eax, secondString
 		call	WriteString
 		call	CrLf
