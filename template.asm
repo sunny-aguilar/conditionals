@@ -23,7 +23,7 @@ main PROC
 
 ;first if statement
 	mov		eax, 10
-	cmp		20
+	cmp		ebx, 20
 	jmp		firstJump
 
 ;a label to jump to
