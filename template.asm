@@ -20,7 +20,11 @@ main PROC
 	call	CrLf
 
 ;first if statement
-	
+	mov		eax, 10
+	cmp		20
+	jle
+
+;
 
 
 
