@@ -24,7 +24,7 @@ main PROC
 	cmp		20
 	jle
 
-;a lable to jump to
+;a label to jump to
 
 
 ;another label to jump to
