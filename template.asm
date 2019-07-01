@@ -22,10 +22,11 @@ main PROC
 ;first if statement
 	mov		eax, 10
 	cmp		20
-	jle
+	jmp		firstJump
 
 ;a label to jump to
-
+	firstJump:
+	
 
 ;another label to jump to
 
