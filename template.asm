@@ -24,19 +24,26 @@ main PROC
 ;first if statement
 	mov		eax, 10
 	cmp		ebx, 20
-	jmp		firstJump
+	jmp		secondJump
 
-;a label to jump to
-	firstJump:
-		mov		edx, OFFSET firstString
-		call	WriteString
-		call	CrLf
 
-;another label to jump to
-	secondJump:
-		mov		edx, OFFSET secondString
-		call	WriteString
-		call	CrLf
+firstJump:
+	mov		edx, OFFSET firstString
+	call	WriteString
+	call	CrLf
+
+
+secondJump:
+	mov		edx, OFFSET secondString
+	call	WriteString
+	call	CrLf
+
+
+thirdJump:
+	mov		edx, OFFSET thirdString
+	call	WriteString
+	call	CrLf
+	
 
 	exit							; exit to operating system
 main ENDP
