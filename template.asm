@@ -18,10 +18,11 @@ main PROC
 	mov		edx, OFFSET myQuote
 	call	WriteString
 	call	CrLf
-	mov		eax, 5
-	add		eax, 4
-	call	WriteDec
-	call	CrLf
+
+;first if statement
+	
+
+
 
 	exit							; exit to operating system
 main ENDP
