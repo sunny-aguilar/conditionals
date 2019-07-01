@@ -31,7 +31,7 @@ main PROC
 		
 
 ;another label to jump to
-secondJump:
+	secondJump:
 
 
 
