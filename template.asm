@@ -64,7 +64,7 @@ infiniteLoop:
 	call	WriteString
 	call	CrLf
 
-		startLoop:
+startLoop:
 	mov		edx, OFFSET infinity
 	call	WriteString
 	call	CrLf
