@@ -70,9 +70,10 @@ startLoop:
 	call	CrLf
 
 
+
 L1:
 	inc ax
-
+	loop L1
 
 	
 
