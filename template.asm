@@ -72,9 +72,6 @@ startLoop:
 
 
 
-	mov		eax, myNum1
-	mov		ebx, myNum2
-	xchg	eax, ebx
 	
 
 	exit							; exit to operating system
