@@ -70,6 +70,8 @@ startLoop:
 	call	CrLf
 
 
+	mov		ax, 0
+	mov		ecx, 5
 
 L1:
 	inc ax
