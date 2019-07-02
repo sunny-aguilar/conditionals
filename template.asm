@@ -65,7 +65,7 @@ infiniteLoop:
 	call	CrLf
 
 ;startLoop:
-  	jmp		startLoop
+  	;jmp		startLoop
 
 
 
