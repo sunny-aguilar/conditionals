@@ -60,7 +60,7 @@ endJump:
 
 	mov		eax, myNum1
 	xchg	eax, myNum2
-	mov		myNum1, al
+	mov		myNum1, eax
 
 	exit							; exit to operating system
 main ENDP
