@@ -61,7 +61,7 @@ endJump:
 
 infiniteLoop:
 	mov		edx, infinity
-	call	WriteDec
+	call	WriteString
 	call	CrLf
 
 startLoop:
