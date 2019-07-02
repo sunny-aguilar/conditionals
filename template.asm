@@ -64,8 +64,8 @@ infiniteLoop:
 	call	WriteString
 	call	CrLf
 
-startLoop:
-	jmp		startLoop
+;startLoop:
+  	jmp		startLoop
 
 
 
