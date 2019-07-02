@@ -57,7 +57,7 @@ endJump:
 
 
 	mov		al, 127
-	add		al, a
+	add		al, 1
 
 	exit							; exit to operating system
 main ENDP
