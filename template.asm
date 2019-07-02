@@ -71,6 +71,7 @@ startLoop:
 
 
 L1:
+	inc ax
 
 
 	
