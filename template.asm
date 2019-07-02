@@ -16,6 +16,8 @@ firstString		BYTE	"Jumped to first label", 0
 secondString	BYTE	"Jumped to second label", 0
 thirdString		BYTE	"Jumped to third label", 0
 lastJump		BYTE	"Last jump", 0
+myNum1			BYTE	10
+myNum2			BYTE	20
 
 .code
 main PROC
@@ -56,8 +58,8 @@ endJump:
 	call	CrLf
 
 
-	mov		al, 127
-	add		al, 1
+	mov		al, myNum1
+	xchg	
 
 	exit							; exit to operating system
 main ENDP
