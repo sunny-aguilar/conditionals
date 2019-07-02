@@ -57,7 +57,7 @@ endJump:
 
 
 	mov		eax, 1
-	sub		eax, 1
+	sub		eax, 2
 
 	exit							; exit to operating system
 main ENDP
