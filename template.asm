@@ -56,9 +56,8 @@ endJump:
 	call	CrLf
 
 
-	mov		al, 10001100b
-	add		al, 00000001b
-	sub		al, 10000000b
+	mov		al, 127
+	add		al, a
 
 	exit							; exit to operating system
 main ENDP
