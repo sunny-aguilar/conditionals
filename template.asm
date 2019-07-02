@@ -59,7 +59,7 @@ endJump:
 
 
 	mov		eax, myNum1
-	xchg	al, myNum2
+	xchg	eax, myNum2
 	mov		myNum1, al
 
 	exit							; exit to operating system
