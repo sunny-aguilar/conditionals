@@ -14,6 +14,8 @@ INCLUDE Irvine32.inc
 myQuote			BYTE	"Testing conditional statements", 0
 firstString		BYTE	"Jumped to first label", 0
 secondString	BYTE	"Jumped to second label", 0
+thirdString		BYTE	"Jumped to third label", 0
+lastJump		BYTE	"Last jump", 0
 
 .code
 main PROC
@@ -24,26 +26,38 @@ main PROC
 ;first if statement
 	mov		eax, 10
 	cmp		ebx, 20
-	jmp		secondJump
+	jmp		thirdJump
 
 
 firstJump:
 	mov		edx, OFFSET firstString
 	call	WriteString
 	call	CrLf
+	jmp		endJump
 
 
 secondJump:
 	mov		edx, OFFSET secondString
 	call	WriteString
 	call	CrLf
+	jmp		firstJump
 
 
 thirdJump:
 	mov		edx, OFFSET thirdString
 	call	WriteString
 	call	CrLf
+	jmp		secondJump
 	
+
+endJump:
+	mov		edx, OFFSET lastJump
+	call	WriteString
+	call	CrLf
+
+
+	mov		eax, 5
+	add		eax, -5
 
 	exit							; exit to operating system
 main ENDP
