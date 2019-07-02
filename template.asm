@@ -68,7 +68,6 @@ startLoop:
 	mov		edx, OFFSET infinity
 	call	WriteString
 	call	CrLf
-  	jmp		startLoop
 
 
 
