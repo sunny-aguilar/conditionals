@@ -60,7 +60,7 @@ endJump:
 
 
 infiniteLoop:
-	mov		edx, infinity
+	mov		edx, OFFSET infinity
 	call	WriteString
 	call	CrLf
 
