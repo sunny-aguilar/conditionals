@@ -74,8 +74,9 @@ startLoop:
 	mov		ecx, 5
 
 L1:
-	inc ax
-	loop L1
+	call	WriteDec
+	inc		ax
+	loop	L1
 
 	
 
