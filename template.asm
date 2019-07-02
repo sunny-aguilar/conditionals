@@ -58,8 +58,9 @@ endJump:
 	call	CrLf
 
 
-	mov		al, myNum1
-	xchg	
+	mov		ax, myNum1
+	xchg	ax, myNum2
+	mov		myNum1, ax
 
 	exit							; exit to operating system
 main ENDP
