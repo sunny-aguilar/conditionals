@@ -59,6 +59,7 @@ endJump:
 
 
 	mov		eax, myNum1
+	mov
 	xchg	eax, myNum2
 	mov		myNum1, eax
 
