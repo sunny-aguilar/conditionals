@@ -61,6 +61,7 @@ endJump:
 
 infiniteLoop:
 	mov		edx, infinity
+	
 
 startLoop:
 	jmp		infiniteLoop
