@@ -56,8 +56,8 @@ endJump:
 	call	CrLf
 
 
-	mov		eax, 5
-	add		eax, -5
+	mov		eax, 1
+	sub		eax, 1
 
 	exit							; exit to operating system
 main ENDP
