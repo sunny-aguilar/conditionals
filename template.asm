@@ -25,7 +25,7 @@ main PROC
 	call	arraySum
 	mov		theSum, eax
 	call	WriteDec
-	call	CrLf
+	call	Crlf
 
 
 ;looping example
@@ -42,7 +42,7 @@ call	WaitMsg				;pause program
 ;call	Clrscr				;clear the screen
 ;call	MsgBoxAsk			;popup box
 
-mov	edx, OFFSET filename
+;mov	edx, OFFSET filename
 call	CreateOutputFile
 
 	exit; exit to operating system
