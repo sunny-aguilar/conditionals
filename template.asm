@@ -50,7 +50,7 @@ main ENDP
 arraySum PROC
 	push	esi
 	push	ecx
-	call	CrLf
+	mov		eax, 0
 	ret
 arraySum ENDP
 
