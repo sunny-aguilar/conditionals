@@ -23,6 +23,7 @@ main PROC
 	mov		ecx, LENGTHOF array
 	call	arraySum
 	mov		theSum, eax
+	call	WriteDec
 	call	CrLf
 
 
@@ -43,7 +44,7 @@ main ENDP
 ;------------------------------------------------
 ; arraySum
 ;
-; Adds two values
+; Adds array values to a sum
 ;
 ; Returns: none
 ;------------------------------------------------
