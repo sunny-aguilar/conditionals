@@ -43,7 +43,7 @@ call	WaitMsg				;pause program
 ;call	MsgBoxAsk			;popup box
 
 ;mov	edx, OFFSET filename
-call	CreateOutputFile
+;call	CreateOutputFile
 
 	exit; exit to operating system
 main ENDP
