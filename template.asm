@@ -17,6 +17,7 @@ secondString	BYTE	"Jumped to second label", 0
 thirdString		BYTE	"Jumped to third label", 0
 lastJump		BYTE	"Last jump", 0
 infinity		BYTE	"INFINITE LOOP!", 0
+message			BYTE	"String in sub procedure", 0
 myNum1			DWORD	10
 myNum2			DWORD	20
 
@@ -79,7 +80,7 @@ L1:
 	inc		ax
 	loop	L1
 
-
+call sample
 
 	exit; exit to operating system
 main ENDP
