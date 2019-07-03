@@ -95,7 +95,8 @@ main ENDP
 ;------------------------------------------------
 sample PROC
 	mov		edx, OFFSET message
-	add		eax, 4
+	call	WriteString
+	call	CrLf
 	ret
 sample END
 
