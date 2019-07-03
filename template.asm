@@ -64,8 +64,9 @@ call	CrLf
 call	GetTextColor
 mov		color, AL
 
-call	GetTextColor
-mov		color, AL
+;message box
+
+
 
 
 
