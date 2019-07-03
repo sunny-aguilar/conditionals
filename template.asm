@@ -14,7 +14,8 @@ INCLUDE Irvine32.inc
 myQuote			BYTE	"Testing conditional statements", 0
 infinity		BYTE	"INFINITE LOOP!", 0
 message			BYTE	"String in sub procedure", 0
-
+array DWORD 1 2 3 4 5
+theSum DWORD ?
 
 .code
 main PROC
