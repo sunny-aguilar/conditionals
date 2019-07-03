@@ -86,8 +86,9 @@ main ENDP
 
 ;my test procedure
 sample PROC
-
+	add		eax, 5
+	add		eax, 4
 	ret
-		sample END
+sample END
 
 END main
