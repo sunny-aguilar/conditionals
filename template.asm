@@ -36,23 +36,11 @@ main PROC
 firstJump:
 	mov		edx, OFFSET thirdString
 	call	WriteString
-	call	CrLf
-
-
-
-infiniteLoop:
-	mov		edx, OFFSET infinity
-	call	WriteString
-	call	CrLf
-
-startLoop:
-	mov		edx, OFFSET infinity
-	call	WriteString
-	call	CrLf
+	call	CrLf 
 
 
 	mov		ax, 0
-	mov		ecx, 500
+	mov		ecx, 5
 
 L1:
 	call	WriteDec
