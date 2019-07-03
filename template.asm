@@ -55,8 +55,10 @@ arraySum PROC
 L1:
 	add		eax, [esi]
 	add		esi, TYPE DWORD
-	loop L1
-
+	loop	L1
+	pop		ecx
+	pop		esi
+	ret
 arraySum ENDP
 
 END main
