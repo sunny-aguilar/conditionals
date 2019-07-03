@@ -25,7 +25,7 @@ main PROC
 	call	arraySum
 	mov		theSum, eax
 	call	WriteDec
-	call	Crlf
+	call	CrLf
 
 
 ;looping example
