@@ -11,6 +11,7 @@ INCLUDE Irvine32.inc
 
 
 .data
+caption			BYTE	"Dialog Title", 0
 myQuote			BYTE	"Testing conditional statements", 0
 infinity		BYTE	"INFINITE LOOP!", 0
 message			BYTE	"String in sub procedure", 0
@@ -65,6 +66,9 @@ call	GetTextColor
 mov		color, AL
 
 ;message box
+mov		ebx, OFFSET caption
+mov		edx, OFFSET	myQuote
+call	MsgBox
 
 
 
