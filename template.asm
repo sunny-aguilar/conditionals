@@ -75,8 +75,8 @@ startLoop:
 
 L1:
 	call	WriteDec
-		call	CrLf
-		inc		ax
+	call	CrLf
+	inc		ax
 		loop	L1
 
 
