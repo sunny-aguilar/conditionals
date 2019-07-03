@@ -82,7 +82,7 @@ L1:
 
 
 	exit; exit to operating system
-		main ENDP
+main ENDP
 
 ;------------------------------------------------
 ; sample
