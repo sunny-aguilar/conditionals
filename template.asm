@@ -32,13 +32,13 @@ main PROC
 	mov		ecx, 5
 
 L1:
-call	WriteDec
-call	CrLf
-inc		ax
-loop	L1
+	call	WriteDec
+	call	CrLf
+	inc		ax
+	loop	L1
 
 
-; call	Clrscr
+;call	Clrscr
 
 	exit; exit to operating system
 main ENDP
