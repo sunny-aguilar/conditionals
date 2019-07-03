@@ -48,6 +48,7 @@ L1:
 	inc		ax
 	loop	L1
 
+
 call sample
 
 
