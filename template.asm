@@ -38,7 +38,7 @@ L1:
 	loop	L1
 
 
-call	DumpMem
+call	GetCommandTail
 
 	exit; exit to operating system
 main ENDP
