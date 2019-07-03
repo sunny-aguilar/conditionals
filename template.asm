@@ -18,6 +18,7 @@ array			DWORD	1, 2, 3, 4, 5
 theSum			DWORD	?
 filename		BYTE	"newfile.txt", 0
 startTime		DWORD	?
+totalTime		BYTE	"total time: ", 0
 
 .code
 main PROC
@@ -50,6 +51,8 @@ mov	edx, OFFSET filename
 call	CreateOutputFile
 call	CrLf
 
+call	edx, OFFSET totalTime
+call	
 call	GetMseconds
 sub		eax, startTime
 call	WriteDec
