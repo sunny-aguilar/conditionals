@@ -38,7 +38,7 @@ L1:
 	loop	L1
 
 
-call	Clrscr
+call
 
 	exit; exit to operating system
 main ENDP
