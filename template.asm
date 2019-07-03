@@ -49,7 +49,7 @@ call	GetMseconds
 mov		startTime, eax
 
 ;mov	edx, OFFSET filename
-call	CreateOutputFile
+;call	CreateOutputFile
 call	CrLf
 
 mov		edx, OFFSET totalTime
