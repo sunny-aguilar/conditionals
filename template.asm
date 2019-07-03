@@ -38,7 +38,7 @@ L1:
 	loop	L1
 
 
-call	DumpRegs
+call	DumpMem
 
 	exit; exit to operating system
 main ENDP
