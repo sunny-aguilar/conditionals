@@ -77,7 +77,7 @@ L1:
 	call	WriteDec
 	call	CrLf
 	inc		ax
-		loop	L1
+	loop	L1
 
 
 
