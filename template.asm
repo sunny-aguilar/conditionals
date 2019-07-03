@@ -43,9 +43,6 @@ call	WaitMsg				;pause program
 ;call	Clrscr				;clear the screen
 ;call	MsgBoxAsk			;popup box
 
-;mov	edx, OFFSET filename
-;call	CreateOutputFile
-
 call	GetMseconds
 mov		startTime, eax
 
