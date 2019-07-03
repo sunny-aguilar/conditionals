@@ -16,6 +16,7 @@ infinity		BYTE	"INFINITE LOOP!", 0
 message			BYTE	"String in sub procedure", 0
 array			DWORD	1, 2, 3, 4, 5
 theSum			DWORD	?
+filename		BYTE	"newfile.txt", 0
 
 .code
 main PROC
