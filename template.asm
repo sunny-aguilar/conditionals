@@ -71,10 +71,11 @@ startLoop:
 
 
 	mov		ax, 0
-	mov		ecx, 5
+	mov		ecx, 500
 
 L1:
 	call	WriteDec
+	call	CrLf
 	inc		ax
 	loop	L1
 
@@ -83,5 +84,6 @@ L1:
 	exit							; exit to operating system
 main ENDP
 
+testProc PROC
 
 END main
