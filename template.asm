@@ -51,8 +51,8 @@ mov	edx, OFFSET filename
 call	CreateOutputFile
 call	CrLf
 
-call	edx, OFFSET totalTime
-call	
+mov		edx, OFFSET totalTime
+call	WriteString
 call	GetMseconds
 sub		eax, startTime
 call	WriteDec
