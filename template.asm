@@ -50,7 +50,7 @@ mov		startTime, eax
 
 ;mov	edx, OFFSET filename
 ;call	CreateOutputFile
-call	CrLf
+;call	CrLf
 
 mov		edx, OFFSET totalTime
 call	WriteString
@@ -61,6 +61,9 @@ call	CrLf
 
 
 ;get color of text and foreground
+call	GetTextColor
+mov		color, AL
+
 call	GetTextColor
 mov		color, AL
 
