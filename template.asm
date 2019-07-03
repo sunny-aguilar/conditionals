@@ -46,6 +46,12 @@ call	WaitMsg				;pause program
 ;mov	edx, OFFSET filename
 ;call	CreateOutputFile
 
+call	GetMseconds
+mov		startTime, eax
+
+; mov	edx, OFFSET filename
+; call	CreateOutputFile
+
 	exit; exit to operating system
 main ENDP
 
