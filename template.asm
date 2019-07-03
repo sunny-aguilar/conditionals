@@ -21,6 +21,7 @@ filename		BYTE	"newfile.txt", 0
 startTime		DWORD	?
 totalTime		BYTE	"total time: ", 0
 color			BYTE	?
+char			BYTE	?
 
 .code
 main PROC
@@ -70,7 +71,7 @@ mov		ebx, OFFSET caption
 mov		edx, OFFSET	myQuote
 call	MsgBox
 
-
+;read a character
 
 
 
