@@ -22,6 +22,7 @@ main PROC
 	mov		esi, OFFSET array
 	mov		ecx, LENGTHOF array
 	call	arraySum
+	mov		theSum, eax
 	call	CrLf
 
 
@@ -47,8 +48,8 @@ main ENDP
 ; Returns: none
 ;------------------------------------------------
 arraySum PROC
-	mov		edx, OFFSET message
-	call	WriteString
+	push	esi
+	push	ecx
 	call	CrLf
 	ret
 arraySum ENDP
