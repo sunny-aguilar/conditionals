@@ -30,17 +30,10 @@ main PROC
 ;first if statement
 	mov		eax, 10
 	cmp		ebx, 20
-	jmp		thirdJump
-
-
-secondJump:
-	mov		edx, OFFSET secondString
-	call	WriteString
-	call	CrLf
 	jmp		firstJump
 
 
-thirdJump:
+firstJump:
 	mov		edx, OFFSET thirdString
 	call	WriteString
 	call	CrLf
