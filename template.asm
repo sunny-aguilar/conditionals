@@ -37,7 +37,8 @@ L1:
 	inc		ax
 	loop	L1
 
-
+call	WaitMsg
+cal
 call	MsgBoxAsk
 
 	exit; exit to operating system
