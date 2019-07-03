@@ -46,8 +46,8 @@ call	WaitMsg				;pause program
 call	GetMseconds
 mov		startTime, eax
 
-; mov	edx, OFFSET filename
-; call	CreateOutputFile
+mov	edx, OFFSET filename
+call	CreateOutputFile
 
 call	GetMseconds
 sub		eax, startTime
