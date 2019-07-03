@@ -24,7 +24,6 @@ main PROC
 	call	CrLf
 
 
-
 ;looping example
 	mov		ax, 0
 	mov		ecx, 5
@@ -37,7 +36,7 @@ L1:
 
 
 ;simple function call test
-theSum sample
+	call theSum
 
 
 	exit; exit to operating system
