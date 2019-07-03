@@ -87,7 +87,8 @@ L1:
 ;------------------------------------------------
 ; sample
 ;
-;my test procedure
+; sample procedures adds two values
+
 ;------------------------------------------------
 sample PROC
 	add		eax, 5
