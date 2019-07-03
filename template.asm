@@ -51,7 +51,10 @@ arraySum PROC
 	push	esi
 	push	ecx
 	mov		eax, 0
-	ret
+
+L1:
+	add		eax, [esi]
+
 arraySum ENDP
 
 END main
