@@ -81,7 +81,7 @@ L1:
 
 
 
-		exit; exit to operating system
+	exit; exit to operating system
 		main ENDP
 
 ;------------------------------------------------
