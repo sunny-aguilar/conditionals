@@ -67,7 +67,7 @@ call	GetTextColor
 mov		color, AL
 
 ;message box
-mov		ebx, OFFSET caption
+;mov		ebx, OFFSET caption
 mov		edx, OFFSET	myQuote
 call	MsgBox
 
