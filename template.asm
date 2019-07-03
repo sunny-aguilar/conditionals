@@ -21,6 +21,7 @@ theSum DWORD ?
 main PROC
 	mov		esi, OFFSET array
 	mov		ecx, LENGTHOF array
+	call
 	call	CrLf
 
 
@@ -35,26 +36,23 @@ L1:
 	loop	L1
 
 
-;simple function call test
-	call theSum
-
 
 	exit; exit to operating system
 main ENDP
 
 
 ;------------------------------------------------
-; theSum
+; arraySum
 ;
 ; Adds two values
 ;
 ; Returns: none
 ;------------------------------------------------
-theSum PROC
+arraySum PROC
 	mov		edx, OFFSET message
 	call	WriteString
 	call	CrLf
 	ret
-	theSum ENDP
+arraySum ENDP
 
 END main
