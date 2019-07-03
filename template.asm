@@ -19,6 +19,7 @@ theSum			DWORD	?
 filename		BYTE	"newfile.txt", 0
 startTime		DWORD	?
 totalTime		BYTE	"total time: ", 0
+color			BYTE	?
 
 .code
 main PROC
@@ -57,6 +58,11 @@ call	GetMseconds
 sub		eax, startTime
 call	WriteDec
 call	CrLf
+
+
+;get color of text and foreground
+
+
 
 
 	exit; exit to operating system
