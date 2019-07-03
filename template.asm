@@ -27,16 +27,7 @@ main PROC
 	call	WriteString
 	call	CrLf
 
-;first if statement
-	mov		eax, 10
-	cmp		ebx, 20
-	jmp		firstJump
 
-
-firstJump:
-	mov		edx, OFFSET thirdString
-	call	WriteString
-	call	CrLf 
 
 ;looping example
 	mov		ax, 0
