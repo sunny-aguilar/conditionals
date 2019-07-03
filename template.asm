@@ -75,16 +75,18 @@ startLoop:
 
 L1:
 	call	WriteDec
-	call	CrLf
-	inc		ax
-	loop	L1
+		call	CrLf
+		inc		ax
+		loop	L1
 
-	
 
-	exit							; exit to operating system
-main ENDP
 
+		exit; exit to operating system
+		main ENDP
+
+;------------------------------------------------
 ;my test procedure
+;------------------------------------------------
 sample PROC
 	add		eax, 5
 	add		eax, 4
