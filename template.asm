@@ -82,6 +82,7 @@ L1:
 
 call sample
 
+
 	exit; exit to operating system
 main ENDP
 
@@ -93,7 +94,7 @@ main ENDP
 ; Returns: none
 ;------------------------------------------------
 sample PROC
-	add		eax, 5
+	mov		edx, OFFSET message
 	add		eax, 4
 	ret
 sample END
