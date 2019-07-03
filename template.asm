@@ -54,6 +54,7 @@ call sample
 	exit; exit to operating system
 main ENDP
 
+
 ;------------------------------------------------
 ; sample
 ;
@@ -66,6 +67,6 @@ sample PROC
 	call	WriteString
 	call	CrLf
 	ret
-sample END
+sample ENDP
 
 END main
