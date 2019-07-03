@@ -38,7 +38,7 @@ L1:
 	loop	L1
 
 call	WaitMsg
-cal
+call	Crlscr
 call	MsgBoxAsk
 
 	exit; exit to operating system
