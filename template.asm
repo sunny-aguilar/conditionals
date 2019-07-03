@@ -33,13 +33,6 @@ main PROC
 	jmp		thirdJump
 
 
-firstJump:
-	mov		edx, OFFSET firstString
-	call	WriteString
-	call	CrLf
-	jmp		endJump
-
-
 secondJump:
 	mov		edx, OFFSET secondString
 	call	WriteString
