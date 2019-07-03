@@ -51,6 +51,8 @@ mov		startTime, eax
 
 call	GetMseconds
 sub		eax, startTime
+call	WriteDec
+call	CrLf
 
 
 	exit; exit to operating system
