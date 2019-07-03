@@ -12,7 +12,6 @@ INCLUDE Irvine32.inc
 
 .data
 myQuote			BYTE	"Testing conditional statements", 0
-lastJump		BYTE	"Last jump", 0
 infinity		BYTE	"INFINITE LOOP!", 0
 message			BYTE	"String in sub procedure", 0
 myNum1			DWORD	10
