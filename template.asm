@@ -19,8 +19,8 @@ theSum DWORD ?
 
 .code
 main PROC
-	mov		edx, OFFSET myQuote
-	call	WriteString
+	mov		esi, OFFSET array
+	mov		ecx, LENGTHOF array
 	call	CrLf
 
 
