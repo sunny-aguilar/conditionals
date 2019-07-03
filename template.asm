@@ -37,9 +37,9 @@ L1:
 	inc		ax
 	loop	L1
 
-call	WaitMsg
-;call	Clrscr
-;call	MsgBoxAsk
+call	WaitMsg				;pause program
+;call	Clrscr				;clear the screen
+;call	MsgBoxAsk			;popup box
 
 	exit; exit to operating system
 main ENDP
