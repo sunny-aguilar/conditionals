@@ -39,7 +39,7 @@ L1:
 
 call	WaitMsg
 call	Clrscr
-call	MsgBoxAsk
+;call	MsgBoxAsk
 
 	exit; exit to operating system
 main ENDP
