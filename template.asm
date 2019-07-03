@@ -37,13 +37,7 @@ firstJump:
 	mov		edx, OFFSET thirdString
 	call	WriteString
 	call	CrLf
-	jmp		secondJump
-	
 
-endJump:
-	mov		edx, OFFSET lastJump
-	call	WriteString
-	call	CrLf
 
 
 infiniteLoop:
