@@ -49,6 +49,10 @@ mov		startTime, eax
 ; mov	edx, OFFSET filename
 ; call	CreateOutputFile
 
+call	GetMseconds
+sub		eax, startTime
+
+
 	exit; exit to operating system
 main ENDP
 
