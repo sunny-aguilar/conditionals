@@ -12,9 +12,6 @@ INCLUDE Irvine32.inc
 
 .data
 myQuote			BYTE	"Testing conditional statements", 0
-firstString		BYTE	"Jumped to first label", 0
-secondString	BYTE	"Jumped to second label", 0
-thirdString		BYTE	"Jumped to third label", 0
 lastJump		BYTE	"Last jump", 0
 infinity		BYTE	"INFINITE LOOP!", 0
 message			BYTE	"String in sub procedure", 0
