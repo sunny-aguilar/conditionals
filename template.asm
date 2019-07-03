@@ -21,7 +21,7 @@ theSum DWORD ?
 main PROC
 	mov		esi, OFFSET array
 	mov		ecx, LENGTHOF array
-	call
+	call	arraySum
 	call	CrLf
 
 
@@ -34,8 +34,6 @@ L1:
 	call	CrLf
 	inc		ax
 	loop	L1
-
-
 
 	exit; exit to operating system
 main ENDP
