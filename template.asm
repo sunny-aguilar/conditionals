@@ -72,6 +72,8 @@ mov		edx, OFFSET	myQuote
 call	MsgBox
 
 ;read a character
+call	ReadChar
+mov		char, al
 
 
 
