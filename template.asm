@@ -38,7 +38,7 @@ firstJump:
 	call	WriteString
 	call	CrLf 
 
-
+;looping example
 	mov		ax, 0
 	mov		ecx, 5
 
