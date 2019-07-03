@@ -42,6 +42,8 @@ call	WaitMsg				;pause program
 ;call	Clrscr				;clear the screen
 ;call	MsgBoxAsk			;popup box
 
+mov	edx, OFFSET filename
+
 	exit; exit to operating system
 main ENDP
 
