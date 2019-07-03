@@ -88,7 +88,8 @@ L1:
 ; sample
 ;
 ; sample procedures adds two values
-
+;
+; Returns: none
 ;------------------------------------------------
 sample PROC
 	add		eax, 5
