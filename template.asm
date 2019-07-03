@@ -49,6 +49,7 @@ L1:
 	loop	L1
 
 
+;simple function call test
 call sample
 
 
