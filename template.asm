@@ -68,7 +68,7 @@ mov		color, AL
 
 ;message box
 ;mov		ebx, OFFSET caption
-mov		edx, OFFSET	myQuote
+;mov		edx, OFFSET	myQuote
 call	MsgBox
 
 ;read a character
