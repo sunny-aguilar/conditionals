@@ -48,7 +48,7 @@ call	WaitMsg				;pause program
 call	GetMseconds
 mov		startTime, eax
 
-mov	edx, OFFSET filename
+;mov	edx, OFFSET filename
 call	CreateOutputFile
 call	CrLf
 
@@ -61,7 +61,8 @@ call	CrLf
 
 
 ;get color of text and foreground
-
+call	GetTextColor
+mov		color, AL
 
 
 
