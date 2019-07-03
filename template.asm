@@ -84,6 +84,9 @@ L1:
 	exit							; exit to operating system
 main ENDP
 
-testProc PROC
+;my test procedure
+
+
+
 
 END main
