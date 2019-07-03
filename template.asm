@@ -87,7 +87,7 @@ L1:
 ;------------------------------------------------
 ; sample
 ;
-; sample procedures adds two values
+; Adds two values
 ;
 ; Returns: none
 ;------------------------------------------------
