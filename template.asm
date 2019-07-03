@@ -85,8 +85,9 @@ L1:
 main ENDP
 
 ;my test procedure
+testProc PROC
 
-
-
+	ret
+testProc END
 
 END main
