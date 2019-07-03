@@ -37,7 +37,7 @@ L1:
 
 
 ;simple function call test
-call sample
+theSum sample
 
 
 	exit; exit to operating system
@@ -45,17 +45,17 @@ main ENDP
 
 
 ;------------------------------------------------
-; sample
+; theSum
 ;
 ; Adds two values
 ;
 ; Returns: none
 ;------------------------------------------------
-sample PROC
+theSum PROC
 	mov		edx, OFFSET message
 	call	WriteString
 	call	CrLf
 	ret
-sample ENDP
+	theSum ENDP
 
 END main
