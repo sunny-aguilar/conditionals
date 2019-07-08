@@ -5,7 +5,7 @@ TITLE Program Template     (template.asm)
 ; OSU email address: 
 ; Course number/section:
 ; Assignment Number:
-; Due Date:
+; Due Date:					N
 ; Description:
 
 INCLUDE Irvine32.inc
