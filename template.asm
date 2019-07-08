@@ -1,6 +1,6 @@
 TITLE Program Template     (template.asm)
 
-; Author:					San
+; Author:					Sand
 ; Last Modified:
 ; OSU email address: 
 ; Course number/section:
