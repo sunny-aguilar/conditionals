@@ -1,6 +1,6 @@
 TITLE Program Template     (template.asm)
 
-; Author:					Sandro Agu
+; Author:					Sandro Agui
 ; Last Modified:
 ; OSU email address: 
 ; Course number/section:
