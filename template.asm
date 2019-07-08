@@ -14,15 +14,18 @@ INCLUDE Irvine32.inc
 dontPrint		BYTE	"This should not print. . .", 0
 testString_1	BYTE	"first string", 0
 testString_2	BYTE	"secon dstring", 0
+eaxVal			DWORD	?
+edxVal			DWORD	?
+
 
 .code
 main PROC
-	mov	eax, 0
-	mov	ebx, 0
-	push 5
-	push 10
-	pop ebx
-	pop eax
+	mov	eax, 123
+	mov	ebx, 13
+	mov edx, 0
+	div	ebx
+	mov eaxVal, eax
+
 	call	WriteDec
 
 
