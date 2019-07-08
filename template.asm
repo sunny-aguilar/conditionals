@@ -1,7 +1,7 @@
 TITLE Program Template     (template.asm)
 
 ; Author:					Sandro Aguilar
-; Last Modified:			Jul
+; Last Modified:			July
 ; OSU email address: 
 ; Course number/section:
 ; Assignment Number:
