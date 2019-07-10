@@ -22,6 +22,7 @@ main PROC
 
 	mov		eax, 1000
 	add		eax, 2000
+	call	WriteDec
 
 
 
