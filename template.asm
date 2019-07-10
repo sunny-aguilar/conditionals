@@ -12,7 +12,7 @@ INCLUDE Irvine32.inc
 
 
 .data
-myTime		SDWORD	?
+myTime		DWORD	?
 
 
 .code
