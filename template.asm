@@ -13,7 +13,7 @@ INCLUDE Irvine32.inc
 
 .data
 startTime		DWORD	?
-endTime			DWORD	?
+totalTime			DWORD	?
 
 .code
 main PROC
