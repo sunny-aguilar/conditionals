@@ -18,6 +18,7 @@ myTime		DWORD	?
 .code
 main PROC
 	call	GetMseconds					;record start time
+	mov		
 
 
 
