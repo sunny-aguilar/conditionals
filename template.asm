@@ -25,7 +25,8 @@ main PROC
 	call	WriteDec
 
 	call	GetMseconds					;start record time
-	mov		endTime, eax
+	sub		eax, startTime				;subtract startTime from endTime
+
 
 
 
