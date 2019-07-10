@@ -21,7 +21,7 @@ main PROC
 	mov		startTime, eax				;save start time stored in eax
 
 	mov		eax, 1000
-	add		eax, 
+	add		eax, 2000
 
 
 
