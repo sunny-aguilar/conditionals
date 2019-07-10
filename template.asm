@@ -13,7 +13,7 @@ INCLUDE Irvine32.inc
 
 .data
 startTime		DWORD	?
-
+endTime
 
 .code
 main PROC
@@ -25,6 +25,7 @@ main PROC
 	call	WriteDec
 
 	call	GetMseconds					;start record time
+	mov		
 
 
 
