@@ -25,12 +25,6 @@ z   BYTE   90
 
 .code
 main PROC
-	mov   AH, y
-	mov   AL, z
-
-	inc   EAX
-	movzx   EBX, z
-	xor EAX, EBX
 
 
 
