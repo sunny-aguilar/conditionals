@@ -24,7 +24,7 @@ main PROC
 	add		eax, 2000
 	call	WriteDec
 
-	call	GetMseconds
+	call	GetMseconds					;start record time
 
 
 
