@@ -12,15 +12,7 @@ INCLUDE Irvine32.inc
 
 
 .data
-dontPrint		BYTE	"This should not print. . .", 0
-testString_1	BYTE	"first string", 0
-testString_2	BYTE	"secon dstring", 0
-eaxVal			DWORD	?
-edxVal			DWORD	?
 
-x   DWORD  153461
-y   BYTE   37
-z   BYTE   90
 
 
 .code
