@@ -18,7 +18,7 @@ startTime		DWORD	?
 .code
 main PROC
 	call	GetMseconds					;record start time
-	mov		
+	mov		startTime, eax
 
 
 
