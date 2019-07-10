@@ -26,6 +26,7 @@ main PROC
 
 	call	GetMseconds					;start record time
 	sub		eax, startTime				;subtract startTime from endTime
+	mov		endTime, eax
 
 
 
