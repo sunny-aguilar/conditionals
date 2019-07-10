@@ -12,12 +12,12 @@ INCLUDE Irvine32.inc
 
 
 .data
-
+myTime		SDWORD	?
 
 
 .code
 main PROC
-
+	
 
 
 
