@@ -24,6 +24,8 @@ main PROC
 	add		eax, 2000
 	call	WriteDec
 
+	call	GetMseconds
+
 
 
 	exit								;exit to operating system
