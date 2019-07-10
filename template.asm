@@ -20,7 +20,8 @@ main PROC
 	call	GetMseconds					;record start time
 	mov		startTime, eax				;save start time stored in eax
 
-
+	mov		eax, 1000
+	add		eax, 
 
 
 
