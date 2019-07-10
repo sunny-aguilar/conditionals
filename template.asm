@@ -17,7 +17,7 @@ myTime		DWORD	?
 
 .code
 main PROC
-	
+	call	GetMseconds			
 
 
 
