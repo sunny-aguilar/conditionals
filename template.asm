@@ -18,16 +18,20 @@ testString_2	BYTE	"secon dstring", 0
 eaxVal			DWORD	?
 edxVal			DWORD	?
 
+x   DWORD  153461
+y   BYTE   37
+z   BYTE   90
+
 
 .code
 main PROC
-	mov	eax, 123
-	mov	ebx, 13
-	mov edx, 0
-	div	ebx
-	mov eaxVal, eax
+	mov   AH, y
+	mov   AL, z
 
-	call	WriteDec
+	inc   EAX
+	movzx   EBX, z
+	xor EAX, EBX
+
 
 
 
