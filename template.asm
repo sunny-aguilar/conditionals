@@ -12,14 +12,13 @@ INCLUDE Irvine32.inc
 
 
 .data
-startTime		DWORD	?
-totalTime			DWORD	?
+val1	WORD	2000h
+val2	WORD	0100h
 
 .code
 main PROC
-	mov		ax, 48
-	mov		bx, 4
-	imul	bx
+	mov	eax, 10
+	mul	eax, 10
 
 
 
