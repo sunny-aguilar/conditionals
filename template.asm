@@ -17,16 +17,10 @@ totalTime			DWORD	?
 
 .code
 main PROC
-	call	GetMseconds					;record start time
-	mov		startTime, eax				;save start time stored in eax
+	mov		ax, 48
+	mov		bx, 4
+	imul	bx
 
-	mov		eax, 1000
-	add		eax, 2000
-	call	WriteDec
-
-	call	GetMseconds					;start record time
-	sub		eax, startTime				;subtract startTime from endTime
-	mov		endTime, eax
 
 
 
