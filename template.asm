@@ -4,7 +4,7 @@ TITLE Program Template     (template.asm)
 ; Last Modified:			July 7, 2019
 ; OSU email address:		aguilasa@oregonstate.edu
 ; Course number/section:
-; Assignment Number:		San
+; Assignment Number:		Sa
 ; Due Date:					N/A
 ; Description:
 
